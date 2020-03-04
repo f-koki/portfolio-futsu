@@ -1,0 +1,13 @@
+.Menu {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+
+.Menu li {
+  margin-left: 50px;
+  display: inline;
+  float: none;
+  border-bottom: none;
+  text-align: right;
+}

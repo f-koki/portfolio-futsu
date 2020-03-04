@@ -1,4 +1,5 @@
 .Header {
+  position: relative;
   max-width: 960px;
   height: 270px;
   margin: 0 auto 0;
