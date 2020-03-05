@@ -1,0 +1,9 @@
+.Footer {
+  max-width: 960px;
+  padding: 0, 0, 20px;
+  margin: 0 auto;
+}
+
+.Footer #copyright {
+  text-align: right;
+}
