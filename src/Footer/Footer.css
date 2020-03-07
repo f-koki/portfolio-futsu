@@ -1,20 +1,14 @@
 .Footer {
+  overflow: auto; /* 子要素がfloatでも、親要素のheightを自動計算してくれる */
+  line-height: 96px;
   max-width: 960px;
-  padding: 0, 0, 20px;
   margin: 0 auto;
 }
 
 .Footer .FooterSns {
-  position: relative;
   float: left;
-  width: 60%;
-  margin: 60px 0 0 30px;
 }
 
-.Footer #copyright {
+.Footer .Copyright {
   float: right;
-  width: 40%;
-  margin-top: 32px;
-  margin-bottom: 0;
-  text-align: right;
 }

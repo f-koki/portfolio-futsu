@@ -3,7 +3,7 @@ import "./FooterSns.css";
 
 const FooterSns: React.FC = () => {
   return (
-    <nav className="FooterSns">
+    <div className="FooterSns">
       <ul className="sns">
         <li>
           <a href="https://github.com/f-koki">Github</a>
@@ -20,7 +20,7 @@ const FooterSns: React.FC = () => {
           </a>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 };
 
