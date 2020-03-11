@@ -23,6 +23,7 @@ const Skills: React.FC = () => {
         subTitle="Coding"
         imagePath=""
         description="プログラミングします"
+        isLast
       />
     </div>
   );
