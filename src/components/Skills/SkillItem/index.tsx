@@ -20,8 +20,8 @@ const SkillItem: React.FC<Props> = ({
 }) => {
   return (
     <div className={classnames('SkillItem', isLast ? 'last' : '')}>
-      <h3>{title}</h3>
-      <p>{subTitle}</p>
+      <h3 className="title">{title}</h3>
+      <p className="subtitle">{subTitle}</p>
       <p>
         <img src={Logo} alt="skill" />
       </p>
