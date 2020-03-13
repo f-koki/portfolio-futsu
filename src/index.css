@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 h1 {
   font-size: 42px;
   margin-bottom: 64px;
