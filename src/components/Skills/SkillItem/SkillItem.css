@@ -1,6 +1,5 @@
 .SkillItem {
   width: 280px;
-  line-height: 1.8;
 }
 
 .SkillItem .title {
@@ -11,7 +10,7 @@
 .SkillItem .subtitle {
   margin-bottom: 32px;
   font-size: 18px;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 .SkillItem img {
