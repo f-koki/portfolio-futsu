@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Top from "../Top";
 import "./App.css";
 import About from "../About";
+import Contact from "../Contact";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Switch>
           <Route path="/" exact component={Top} />
           <Route path="/about" exact component={About} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />
       </BrowserRouter>
