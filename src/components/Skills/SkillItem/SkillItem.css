@@ -1,5 +1,6 @@
 .SkillItem {
   width: 280px;
+  margin-bottom: 32px;
 }
 
 .SkillItem .title {
