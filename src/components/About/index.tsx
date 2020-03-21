@@ -1,11 +1,14 @@
 import React from "react";
 import "./About.css";
+import MyPicture from "../../images/logo512.png";
 
 const About: React.FC = () => {
   return (
     <div className="About">
       <h1>About</h1>
-      <img src="" />
+      <div className="mypicture">
+        <img src={MyPicture} />
+      </div>
       <p>
         桐朋高校・東京学芸大学卒
         <br />
