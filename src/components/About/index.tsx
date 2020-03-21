@@ -5,10 +5,12 @@ const About: React.FC = () => {
   return (
     <div className="About">
       <h1>About</h1>
+      <img src="" />
       <p>
         桐朋高校・東京学芸大学卒
         <br />
-        都内でフリーランスのWebエンジニアをしております。<br />
+        都内でフリーランスのWebエンジニアをしております。
+        <br />
         <br />
         1993年 生まれる。
         <br />
