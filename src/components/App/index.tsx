@@ -6,6 +6,7 @@ import Top from "../Top";
 import "./App.css";
 import About from "../About";
 import Contact from "../Contact";
+import Works from "../Works";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
           <Route path="/" exact component={Top} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/works" exact component={Works} />
         </Switch>
         <Footer />
       </BrowserRouter>
