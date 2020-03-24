@@ -12,15 +12,6 @@ const TabBar: React.FC<Props> = ({ tabBarLinks }) => {
   return (
     <ul className="TabBar">
       {tabBarLinks.map(tabBarLink => (<li><Link to={tabBarLink.path}>{tabBarLink.message}</Link></li>))}
-      {/* <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <Link to="/works">Works</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
-      </li> */}
     </ul>
   );
 };
