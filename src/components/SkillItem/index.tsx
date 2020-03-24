@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillItem.css";
-import Logo from "../../../images/logo512.png";
+import Logo from "../../images/logo512.png";
 import classnames from "classnames";
 
 type Props = {

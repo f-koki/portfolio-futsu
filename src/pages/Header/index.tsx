@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
 import Logo from "./components/Logo";
-import TabBar from "./components/TabBar";
-import { TabBarLink } from "./components/TabBar"
+import TabBar from "../../components/TabBar";
+import { TabBarLink } from "../../components/TabBar"
 
 const Header: React.FC = () => {
   const headerLinks: TabBarLink[] = [
