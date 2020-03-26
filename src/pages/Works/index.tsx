@@ -1,6 +1,10 @@
 import React from "react";
 import "./Works.css";
 import TabBar, { TabBarLink } from "../../components/TabBar";
+import { Route, Switch } from "react-router-dom";
+import PianoWork from "./PianoWork";
+import LifehackWork from "./LifehackWork";
+import ProgrammingWork from "./ProgrammingWork";
 
 const Works: React.FC = () => {
   const worksTab: TabBarLink[] = [
@@ -12,9 +16,10 @@ const Works: React.FC = () => {
   return (
     <div className="Works">
       <h1>Works</h1>
-      {/* TODO: WorkItem Componentを作成する */}
       <TabBar tabBarLinks={worksTab} />
-      {/* TODO: Programming,Piano,Mentoringでわける */}
+      <Route path="/works/piano" component={PianoWork} />
+      <Route path="/works/lifehack" component={LifehackWork} />
+      <Route path="/works/programming" component={ProgrammingWork} />
     </div>
   );
 };

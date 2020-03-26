@@ -5,7 +5,7 @@ const ProgrammingWork: React.FC = () => {
   return (
     <div className="ProgrammingWork">
       {/* TODO: Workを追加 */}
-      <div></div>
+      <div>programming</div>
     </div>
   );
 };
