@@ -1,7 +1,7 @@
 import React from "react";
 import "./Works.css";
 import TabBar, { TabBarLink } from "../../components/TabBar";
-import { Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import PianoWork from "./PianoWork";
 import LifehackWork from "./LifehackWork";
 import ProgrammingWork from "./ProgrammingWork";
