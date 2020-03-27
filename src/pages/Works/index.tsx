@@ -17,6 +17,7 @@ const Works: React.FC = () => {
     <div className="Works">
       <h1>Works</h1>
       <TabBar tabBarLinks={worksTab} />
+      {/* FIXME: stateを利用して出し分けるようFIX */}
       <Route path="/works/piano" component={PianoWork} />
       <Route path="/works/lifehack" component={LifehackWork} />
       <Route path="/works/programming" component={ProgrammingWork} />
