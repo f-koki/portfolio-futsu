@@ -7,6 +7,8 @@ const PianoWork: React.FC = () => {
     <div className="PianoWork">
       {/* TODO: Workを追加 */}
       <Work />
+      <Work />
+      <Work />
     </div>
   );
 };
