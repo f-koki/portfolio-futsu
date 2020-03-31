@@ -1,4 +1,8 @@
 .MainVisual {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 420px;
   min-width: 760px;
   height: 420px;
   background-color: #ecebeb;
