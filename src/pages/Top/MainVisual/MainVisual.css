@@ -5,5 +5,7 @@
   line-height: 420px;
   min-width: 760px;
   height: 420px;
-  background-color: #ecebeb;
+  /* background-color: #ecebeb; */
+  background-color: #505050;
+  color: #ecebeb;
 }
