@@ -1,8 +1,10 @@
 .Work {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  padding: 0 16px 16px;
+  padding: 16px;
 }
 
-.Work h1 {
-  margin-bottom: 0;
+.Work .title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  line-height: normal;
 }
