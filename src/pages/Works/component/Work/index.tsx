@@ -1,11 +1,19 @@
 import React from "react";
 import "./Work.css";
 
-const Work: React.FC = () => {
+type Props = {
+  title: string;
+  url?: string;
+  linkText?: string;
+  description: string;
+};
+
+const Work: React.FC<Props> = ({ title, url, linkText, description }) => {
   return (
     <div className="Work">
-      <p className="title">Title</p>
-      <p>hogehogehogehogehoge</p>
+      <p className="title">{title}</p>
+      {url && linkText && <a href={url}>{linkText}</a>}
+      <p>{description}</p>
     </div>
   );
 };
