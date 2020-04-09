@@ -1,24 +1,50 @@
 import React, { useState } from "react";
 import "./Works.css";
-import { TabBarLink } from "../../components/TabBar";
 import PianoWork from "./PianoWork";
 import LifehackWork from "./LifehackWork";
 import ProgrammingWork from "./ProgrammingWork";
+import classNames from "classnames";
 
 const Works: React.FC = () => {
-  const [tab, setTab] = useState("piano");
+  const [tab, setTab] = useState("programming");
 
   return (
     <div className="Works">
       <h1>Works</h1>
-      <ul>
-        <li onClick={() => setTab("piano")}>piano</li>
-        <li onClick={() => setTab("lifehack")}>lifehack</li>
-        <li onClick={() => setTab("programming")}>programming</li>
-      </ul>
+      <div>
+        <ul className="tabList">
+          <li
+            className={classNames(
+              "tab programming",
+              tab === "programming" ? "active" : undefined
+            )}
+            onClick={() => setTab("programming")}
+          >
+            PROGRAMMING
+          </li>
+          <li
+            className={classNames(
+              "tab piano",
+              tab === "piano" ? "active" : undefined
+            )}
+            onClick={() => setTab("piano")}
+          >
+            PIANO
+          </li>
+          <li
+            className={classNames(
+              "tab lifehack",
+              tab === "lifehack" ? "active" : undefined
+            )}
+            onClick={() => setTab("lifehack")}
+          >
+            <span>LIFEHACK</span>
+          </li>
+        </ul>
+      </div>
+      {tab === "programming" && <ProgrammingWork />}
       {tab === "piano" && <PianoWork />}
       {tab === "lifehack" && <LifehackWork />}
-      {tab === "programming" && <ProgrammingWork />}
     </div>
   );
 };
