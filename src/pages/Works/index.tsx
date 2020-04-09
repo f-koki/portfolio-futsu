@@ -1,26 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Works.css";
-import TabBar, { TabBarLink } from "../../components/TabBar";
-import { Route } from "react-router-dom";
+import { TabBarLink } from "../../components/TabBar";
 import PianoWork from "./PianoWork";
 import LifehackWork from "./LifehackWork";
 import ProgrammingWork from "./ProgrammingWork";
 
 const Works: React.FC = () => {
-  const worksTab: TabBarLink[] = [
-    { path: "/works/piano", message: "Piano" },
-    { path: "/works/programming", message: "Programming" },
-    { path: "/works/lifehack", message: "Lifehack" }
-  ];
+  const [tab, setTab] = useState("piano");
 
   return (
     <div className="Works">
       <h1>Works</h1>
-      <TabBar tabBarLinks={worksTab} />
-      {/* FIXME: stateを利用して出し分けるようFIX */}
-      <Route path="/works/piano" component={PianoWork} />
-      <Route path="/works/lifehack" component={LifehackWork} />
-      <Route path="/works/programming" component={ProgrammingWork} />
+      <ul>
+        <li onClick={() => setTab("piano")}>piano</li>
+        <li onClick={() => setTab("lifehack")}>lifehack</li>
+        <li onClick={() => setTab("programming")}>programming</li>
+      </ul>
+      {tab === "piano" && <PianoWork />}
+      {tab === "lifehack" && <LifehackWork />}
+      {tab === "programming" && <ProgrammingWork />}
     </div>
   );
 };
