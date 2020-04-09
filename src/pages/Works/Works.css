@@ -23,5 +23,11 @@
 }
 
 .Works .tab.active {
-  box-shadow: 1px 1px 1px 1px #ecebeb;
+  /* box-shadow: 0 0 1px 1px #ecebeb; */
+  /* background-color: #ecebeb; */
+  border-bottom: 2px solid #ecebeb;
+}
+
+.Works .tab:hover {
+  color: #ecebeb;
 }
