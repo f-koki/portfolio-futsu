@@ -5,14 +5,24 @@ type Props = {
   title: string;
   url?: string;
   linkText?: string;
+  skills?: string[];
   description: string;
 };
 
-const Work: React.FC<Props> = ({ title, url, linkText, description }) => {
+const Work: React.FC<Props> = ({
+  title,
+  url,
+  linkText,
+  skills,
+  description
+}) => {
   return (
     <div className="Work">
       <p className="title">{title}</p>
       {url && linkText && <a href={url}>{linkText}</a>}
+      {skills?.map(skill => {
+        return <div className="skill">{skill}</div>;
+      })}
       <p>{description}</p>
     </div>
   );
