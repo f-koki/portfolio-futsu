@@ -4,7 +4,7 @@ import Work from "../component/Work";
 
 const PianoWork: React.FC = () => {
   return (
-    <div className="PianoWork">
+    <div className="PianoWork workList">
       <Work
         title="Youtube35万再生突破"
         url="https://www.youtube.com/watch?v=NuDarhM0C9k"

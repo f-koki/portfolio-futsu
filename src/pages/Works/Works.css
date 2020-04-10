@@ -12,6 +12,15 @@
   display: flex;
 }
 
+.Works .workList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Works .Work {
+  width: 50%;
+}
+
 .Works .tab {
   width: 100%;
   height: 64px;
@@ -20,14 +29,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #ecebeb;
 }
 
 .Works .tab.active {
   /* box-shadow: 0 0 1px 1px #ecebeb; */
   /* background-color: #ecebeb; */
-  border-bottom: 2px solid #ecebeb;
+  /* border-bottom: 2px solid #ecebeb; */
+  color: #505050;
 }
 
 .Works .tab:hover {
-  color: #ecebeb;
+  color: #505050;
+  background-color: #ecebeb;
 }

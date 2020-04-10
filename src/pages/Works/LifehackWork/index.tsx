@@ -3,7 +3,7 @@ import "./LifehackWork.css";
 
 const LifehackWork: React.FC = () => {
   return (
-    <div className="LifehackWork">
+    <div className="LifehackWork workList">
       {/* TODO: Workを追加 */}
       <div>lifehack</div>
     </div>
