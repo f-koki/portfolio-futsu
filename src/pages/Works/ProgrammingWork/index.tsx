@@ -13,6 +13,7 @@ const ProgrammingWork: React.FC = () => {
       <Work
         title="テスト効率化ツールの作成"
         description="某大手ECサイトでテスト効率化のChrome拡張機能を作成。"
+        skills={["JavaScript", "Chrome Extension", "CSS"]}
       ></Work>
     </div>
   );
