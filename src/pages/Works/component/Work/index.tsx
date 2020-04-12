@@ -18,12 +18,14 @@ const Work: React.FC<Props> = ({
 }) => {
   return (
     <div className="Work">
-      <p className="title">{title}</p>
-      {url && linkText && <a href={url}>{linkText}</a>}
-      {skills?.map(skill => {
-        return <div className="skill">{skill}</div>;
-      })}
-      <p>{description}</p>
+      <div className="content">
+        <p className="title">{title}</p>
+        {url && linkText && <a href={url}>{linkText}</a>}
+        {skills?.map(skill => {
+          return <div className="skill">{skill}</div>;
+        })}
+        <p>{description}</p>
+      </div>
     </div>
   );
 };

@@ -1,12 +1,16 @@
 .Work {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .Work .title {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 16px;
   line-height: normal;
+}
+
+.Work .content {
+  padding: 16px;
 }
 
 .Work .skill {
