@@ -4,7 +4,7 @@ import "./MainVisual.css";
 const MainVisual: React.FC = () => {
   return (
     <div className="MainVisual">
-      <div>KEYBOARDIST🎹 / ENGINEER💻 / LIFEHACKER💡</div>
+      <div>ENGINEER💻 / KEYBOARDIST🎹 / LIFEHACKER💡</div>
     </div>
   );
 };
