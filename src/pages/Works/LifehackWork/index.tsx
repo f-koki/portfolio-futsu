@@ -9,6 +9,14 @@ const LifehackWork: React.FC = () => {
         title="Lifehack"
         description="ライフハックのコンサルに乗っています。"
       />
+      <Work
+        title="Lifehack"
+        description="ライフハックのコンサルに乗っています。"
+      />
+      <Work
+        title="Lifehack"
+        description="ライフハックのコンサルに乗っています。"
+      />
     </div>
   );
 };
