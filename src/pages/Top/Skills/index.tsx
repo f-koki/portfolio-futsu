@@ -6,32 +6,26 @@ const Skills: React.FC = () => {
   return (
     <div className="Skills">
       <h1>Skills</h1>
-      {/* <SkillItem
-        title="大喜利"
-        subTitle="Oogiri"
-        imagePath=""
-        description="お題をいただけたら、答えます。面白さの保証はしません。あんまり送ってこないでください。"
-      /> */}
       <SkillItem
         title="プログラミング"
         subTitle="Programing"
         imagePath=""
-        description="WebサイトやWebサービスを作ります。サイト制作依頼は、こちらのフォームからお願いいたします。"
+        description="Webサービスのコーディングが可能。製作依頼は、こちらのフォームからお願いいたします。"
       />
       <SkillItem
         title="キーボード"
         subTitle="Keyboard"
         imagePath=""
-        description="独学で15年以上、キーボード演奏をやっています。独自のメソッドで、初心者でも耳コピで弾けるようになる指導が可能です。"
+        description="独学で15年以上、キーボード演奏をしています。独自のメソッドで、初心者でも耳コピで弾けるようになる指導が可能。"
       />
       <SkillItem
         title="ライフハック"
         subTitle="Lifehack"
         imagePath=""
-        description="一番お金を使っているのはライフハックです。これに関してとくにサービスとかはありません。相談とかは乗ります。"
+        description="暮らしに感じた不便をに、解決策をご提示します。"
         isLast
       />
-      <SkillItem
+      {/* <SkillItem
         title="スマブラ"
         subTitle="Super Smash Bros"
         imagePath=""
@@ -48,7 +42,13 @@ const Skills: React.FC = () => {
         subTitle="Verbalization"
         imagePath=""
         description="心の中のもやもやを言語化します。"
-      />
+      /> */}
+      {/* <SkillItem
+        title="大喜利"
+        subTitle="Oogiri"
+        imagePath=""
+        description="お題をいただけたら、答えます。面白さの保証はしません。あんまり送ってこないでください。"
+      /> */}
     </div>
   );
 };
