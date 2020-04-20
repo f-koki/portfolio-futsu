@@ -29,7 +29,7 @@ const Works: React.FC = () => {
             )}
             onClick={() => setTab("piano")}
           >
-            PIANO
+            KEYBOARD
           </li>
           <li
             className={classNames(

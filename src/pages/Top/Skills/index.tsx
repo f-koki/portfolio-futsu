@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
         title="ライフハック"
         subTitle="Lifehack"
         imagePath=""
-        description="暮らしに感じた不便をに、解決策をご提示します。"
+        description="暮らしに感じた不便に、解決策をご提示します。"
         isLast
       />
       {/* <SkillItem
