@@ -13,16 +13,16 @@ const Skills: React.FC = () => {
         description="Webサービスのコーディングが可能。製作依頼は、こちらのフォームからお願いいたします。"
       />
       <SkillItem
-        title="キーボード"
-        subTitle="Keyboard"
+        title="メンタリング"
+        subTitle="Mentoring"
         imagePath=""
-        description="独学で15年以上、キーボード演奏をしています。独自のメソッドで、初心者でも耳コピで弾けるようになる指導が可能。"
+        description="プログラマ志望の方のメンタリング相談に乗ります。技術的なことはもちろん、学習方法にもフォーカスします。"
       />
       <SkillItem
         title="ライフハック"
         subTitle="Lifehack"
         imagePath=""
-        description="暮らしに感じた不便に、解決策をご提示します。"
+        description="あなたの暮らしを便利にします。"
         isLast
       />
       {/* <SkillItem
