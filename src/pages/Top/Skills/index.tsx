@@ -8,21 +8,21 @@ const Skills: React.FC = () => {
       <h1>Skills</h1>
       <SkillItem
         title="プログラミング"
-        subTitle="Programing"
+        subTitle="Programming"
         imagePath=""
-        description="Webサービスのコーディングが可能。製作依頼は、こちらのフォームからお願いいたします。"
+        description="Webサービスのコーディングが可能。制作依頼、ご相談などはこちらのフォームからお願いいたします。"
       />
       <SkillItem
         title="メンタリング"
         subTitle="Mentoring"
         imagePath=""
-        description="プログラマ志望の方のメンタリング相談に乗ります。技術的なことはもちろん、学習方法にもフォーカスします。"
+        description="プログラマ志望の方のメンタリング相談に乗ります。技術的なことはもちろん、学習方法やマインド面にもフォーカスします。"
       />
       <SkillItem
         title="ライフハック"
         subTitle="Lifehack"
         imagePath=""
-        description="あなたの暮らしを便利にします。"
+        description="暮らしに抱えるご不便を、ライフハックで解決します。"
         isLast
       />
       {/* <SkillItem
