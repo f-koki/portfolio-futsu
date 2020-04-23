@@ -1,12 +1,12 @@
 import React from "react";
 import "./Top.css";
 import MainVisual from "./MainVisual";
-import Skills from "./Skills";
+import Service from "./Service";
 
 const Top: React.FC = () => (
   <div className="Top">
     <MainVisual />
-    <Skills />
+    <Service />
   </div>
 );
 

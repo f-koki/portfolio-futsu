@@ -1,4 +1,4 @@
-.Skills {
+.Service {
   overflow: auto;
   padding: 64px 0;
   max-width: 920px;
@@ -6,11 +6,11 @@
   text-align: center;
 }
 
-.Skills .SkillItem {
+.Service .ServiceItem {
   float: left;
   margin-right: 40px;
 }
 
-.Skills .SkillItem.last {
+.Service .ServiceItem.last {
   margin-right: 0;
 }
