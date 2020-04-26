@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
   return (
     <div className="Contact">
       <h1>Contact</h1>
-      <p>ご連絡はTwiterのDMからどうぞ。</p>
+      <p>ご連絡はTwiterのDMからお願いします。</p>
       <p>
         Twitter: <a href="https://twitter.com/futsu_tech">@futsu_tech</a>
       </p>
