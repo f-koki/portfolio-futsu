@@ -50,6 +50,12 @@ const Skill: React.FC = () => {
         imagePath=""
         description="お題をいただけたら、答えます。面白さの保証はしません。あんまり送ってこないでください。"
       />
+      <SkillItem
+        title="記憶術"
+        subTitle="Memonics"
+        imagePath=""
+        description="円周率を500桁覚えています。その他、様々な試験に応用可能な記憶術を習得しています。"
+      />
     </div>
   );
 };
