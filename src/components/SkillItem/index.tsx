@@ -1,5 +1,5 @@
 import React from "react";
-import "./ServiceItem.css";
+import "./SkillItem.css";
 import Logo from "../../images/logo512.png";
 import classnames from "classnames";
 
@@ -11,7 +11,7 @@ type Props = {
   isLast?: boolean;
 };
 
-const ServiceItem: React.FC<Props> = ({
+const SkillItem: React.FC<Props> = ({
   title,
   subTitle,
   imagePath,
@@ -19,7 +19,7 @@ const ServiceItem: React.FC<Props> = ({
   isLast
 }) => {
   return (
-    <div className={classnames("ServiceItem", isLast ? "last" : "")}>
+    <div className={classnames("SkillItem", isLast ? "last" : "")}>
       <h3 className="title">{title}</h3>
       <p className="subtitle">{subTitle}</p>
       <p>
@@ -30,4 +30,4 @@ const ServiceItem: React.FC<Props> = ({
   );
 };
 
-export default ServiceItem;
+export default SkillItem;
