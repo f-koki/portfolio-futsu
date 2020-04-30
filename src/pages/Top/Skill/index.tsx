@@ -29,7 +29,7 @@ const Skill: React.FC = () => {
         title="スマブラ"
         subTitle="Super Smash Bros"
         imagePath=""
-        description="ロボットでVIPに入っています。上達方法を指導します。"
+        description="ロボットでVIPです。闘いたい方は、こちらのフレコをご登録ください。"
       />
       <SkillItem
         title="英語"
@@ -37,25 +37,26 @@ const Skill: React.FC = () => {
         imagePath=""
         description="英語を使う現場で仕事をしていたので、ほどほどに喋れます。"
       />
-      <SkillItem
+      {/* <SkillItem
         title="言語化補助"
         subTitle="Verbalization"
         imagePath=""
         description="心の中のもやもやを言語化します。30分単位の無料相談を受け付けています。"
         isLast
-      />
+      /> */}
       <SkillItem
         title="大喜利"
         subTitle="Oogiri"
         imagePath=""
         description="お題をいただけたら、答えます。面白さの保証はしません。あんまり送ってこないでください。"
+        isLast
       />
-      <SkillItem
+      {/* <SkillItem
         title="記憶術"
         subTitle="Memonics"
         imagePath=""
         description="円周率を500桁覚えています。その他、様々な試験に応用可能な記憶術を習得しています。"
-      />
+      /> */}
     </div>
   );
 };
