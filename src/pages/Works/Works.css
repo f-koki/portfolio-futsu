@@ -39,11 +39,13 @@
   /* box-shadow: 0 0 1px 1px #ecebeb; */
   /* background-color: #ecebeb; */
   /* border-bottom: 2px solid #ecebeb; */
-  color: #505050;
+  /* color: #505050; */
+  color: #003b46;
 }
 
 .Works .tab:hover {
-  color: #505050;
+  /* color: #505050; */
+  color: #003b46;
   /* background-color: #ecebeb; */
   background-color: #c4dfe6;
 }
