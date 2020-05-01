@@ -11,7 +11,8 @@
 .SkillItem .subtitle {
   margin-bottom: 32px;
   font-size: 18px;
-  color: #a5a5a5;
+  /* color: #a5a5a5; */
+  color: #66a5ad;
 }
 
 .SkillItem img {
