@@ -31,7 +31,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ecebeb;
+  /* color: #ecebeb; */
+  color: #c4dfe6;
 }
 
 .Works .tab.active {
@@ -43,5 +44,6 @@
 
 .Works .tab:hover {
   color: #505050;
-  background-color: #ecebeb;
+  /* background-color: #ecebeb; */
+  background-color: #c4dfe6;
 }
