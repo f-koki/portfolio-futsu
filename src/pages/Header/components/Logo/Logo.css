@@ -1,8 +1,17 @@
 .Logo {
   position: absolute;
   top: 120px;
-  font-size: 30px;
-  font-weight: bold;
   text-align: left;
+  font-weight: bold;
+}
+
+.Logo .title {
+  font-size: 30px;
+
   letter-spacing: 6px;
+}
+
+.Logo .subtitle {
+  font-size: 12px;
+  letter-spacing: 0;
 }

@@ -7,9 +7,9 @@ const Logo: React.FC = () => {
     <div className="Logo">
       <span>
         <Link className="title" to="/">
-          FUTSU TECH
+          <p>FUTSU TECH</p>
+          <p className="subtitle">ENGINEER & KEYBOARDIST & LIFEHACKER</p>
         </Link>
-        <div className="subtitle">ENGINEER & KEYBOARDIST & LIFEHACKER</div>
       </span>
     </div>
   );
