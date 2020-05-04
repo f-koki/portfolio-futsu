@@ -20,6 +20,11 @@ const ProgrammingWork: React.FC = () => {
         description="オープンソースへの貢献。CSS修正やドキュメント整備など、本業の合間で着手。"
         skills={["Vue", "Nuxt", "SCSS", "Git"]}
       ></Work>
+      <Work
+        title="スマホゲームのファンコミュニティサイト構築"
+        description="SPAのファンコミュニティサイトを構築しました。"
+        skills={["React", "SCSS", "Git"]}
+      ></Work>
     </div>
   );
 };
