@@ -1,12 +1,11 @@
 .Header {
+  width: 920px;
+  display: flex;
   position: relative;
-  max-width: 960px;
-  height: 270px;
+  padding: 32px 0;
   margin: 0 auto 0;
+  justify-content: space-between;
 }
 
 .Header .TabBar {
-  position: absolute;
-  bottom: 30px;
-  right: 0;
 }
