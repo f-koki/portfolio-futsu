@@ -21,8 +21,13 @@ const ProgrammingWork: React.FC = () => {
         skills={["Vue", "Nuxt", "SCSS", "Git"]}
       ></Work>
       <Work
+        title="旅行マッチングサービスのフロントエンド実装"
+        description="SPAの旅行マッチングサービスサイトのフロントエンド開発を着手。"
+        skills={["React", "SCSS", "Git"]}
+      ></Work>
+      <Work
         title="スマホゲームのファンコミュニティサイト構築"
-        description="SPAのファンコミュニティサイトを構築しました。"
+        description="SPAのファンコミュニティサイトのフロントエンド開発を着手。"
         skills={["React", "SCSS", "Git"]}
       ></Work>
     </div>
