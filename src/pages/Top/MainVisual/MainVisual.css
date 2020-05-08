@@ -2,9 +2,8 @@
   text-align: center;
   font-size: 42px;
   font-weight: bold;
-  line-height: 420px;
+  line-height: 100vh;
   min-width: 760px;
-  height: 420px;
-  /* background-color: #ecebeb; */
+  height: 100vh;
   background-color: #c4dfe6;
 }
