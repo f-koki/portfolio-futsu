@@ -15,6 +15,9 @@ const FooterSns: React.FC = () => {
           <a href="https://note.com/f_koki">note</a>
         </li>
         <li>
+          <a href="https://f-koki.github.io/futsu-blog/">Blog</a>
+        </li>
+        <li>
           <a href="https://www.youtube.com/channel/UCkevdgimtQpVhTlqfe1aaXg">
             Youtube
           </a>
