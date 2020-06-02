@@ -25,3 +25,8 @@ h1 {
   font-size: 42px;
   margin-bottom: 64px;
 }
+
+.wrapper {
+  position: relative;
+  top: 139px;
+}

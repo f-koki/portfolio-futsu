@@ -3,15 +3,17 @@ import Header from "../Header";
 import Footer from "../Footer";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { Routing } from "../../Routing"
+import { Routing } from "../../Routing";
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routing />
-        <Footer />
+        <div className="wrapper">
+          <Routing />
+          <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );
