@@ -1,9 +1,23 @@
 .MainVisual {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -48px;
+  background-color: #003b46;
+  color: white;
+  padding: 64px 40px;
   font-size: 42px;
   font-weight: bold;
-  line-height: 100vh;
   min-width: 760px;
-  height: 100vh;
-  /* background-color: #c4dfe6; */
+}
+
+.MainVisual .text-box {
+  width: 960px;
+}
+
+.MainVisual .text-box p:nth-child(odd) {
+  text-align: left;
+}
+
+.MainVisual .text-box p:nth-child(even) {
+  text-align: right;
 }
