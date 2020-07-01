@@ -10,19 +10,19 @@ const Skill: React.FC = () => {
         title="プログラミング"
         subTitle="Programming"
         imagePath=""
-        description="Webサービスのコーディングが可能。これまでのお仕事実績はこちらです。"
+        description="RASISを意識した、変更に強いコーディングを行います。WEBサービスは仕様通り動けば終わりではなく、ビジネスと共に形を変えていけるように作る必要があります。ビジネスの変化に柔軟に対応できるような作りを心がけています。"
       />
       <SkillItem
-        title="キーボード"
-        subTitle="Keyboard"
+        title="高速化"
+        subTitle="Acceleration"
         imagePath=""
-        description="聴いたことのある曲を、キーボード演奏できます。ご依頼はこちらまで。"
+        description="どんなご依頼にも、素早く高品質に対応いたします。小学生のころ、初めてPCに触れたときから、PC作業の高速化にこだわり抜いてきました。「こうすればもっと速くできる」最短ルートを考えるのが好きで、得意です。"
       />
       <SkillItem
-        title="ライフハック"
-        subTitle="Lifehack"
+        title="英語"
+        subTitle="English"
         imagePath=""
-        description="暮らしに抱えるご不便を、ライフハックで解決します。noteをご覧ください。"
+        description="英語での文書作成・コミュニケーションを行います。英語の現場で3年間の就労経験があり、英語の現場にも対応できます。"
         isLast
       />
     </div>
